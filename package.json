@@ -1,0 +1,38 @@
+{
+  "name": "icash",
+  "version": "0.0.1",
+  "description": "this application help you to buy things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react": "webpack -d --watch",
+    "server": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QaysTrad/iCash.git"
+  },
+  "author": "QaysTrad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QaysTrad/iCash/issues"
+  },
+  "homepage": "https://github.com/QaysTrad/iCash#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-register": "^6.26.0",
+    "webpack": "^2.7.0",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
